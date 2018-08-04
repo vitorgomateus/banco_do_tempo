@@ -569,15 +569,15 @@ header .social-navigation {
 	margin: 0 auto;
 }
 .main-navigation, .site{
-    padding-left: 4px;
+    padding-left: 12px;
     padding-right: 4px;
-    padding-left: 0.25rem;
+    padding-left: 0.75rem;
     padding-right: 0.25rem;
 }
 .site-header{
-	margin-left: -4px;
+	margin-left: -12px;
 	margin-right: -4px;
-    margin-left: -0.25rem;
+    margin-left: -0.75rem;
     margin-right: -0.25rem;
 }
 
