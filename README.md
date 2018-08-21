@@ -1,5 +1,3 @@
-
-
 https://developer.wordpress.org/reference/functions/get_template_part/
 https://developer.wordpress.org/reference/functions/get_posts/
 create a template for página de serviços, that loads a diferent template for each category, according to parameter in url
