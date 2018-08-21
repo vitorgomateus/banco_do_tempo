@@ -54,7 +54,7 @@
 
 	<?php tha_header_before(); // custom action hook ?>
 
-	<header id="masthead" class="site-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+	<header id="masthead" class="site-header wow" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
 
 		<?php tha_header_top(); // custom action hook ?>
 
@@ -103,11 +103,13 @@
 
 			<?php // Search form for mobile menu ?>
 
-			<div class="search-box-wrapper search-container-mobile">
-				<div class="search-box">
-					<?php get_search_form(); ?>
-				</div>
-			</div>
+			<!--<div class="search-box-wrapper search-container-mobile">
+				<div class="search-box">						-->
+					<?php // get_search_form(); ?>
+		<!--	</div>
+			</div>	
+			<img src="http://localhost/banco_do_tempo/wp-content/uploads/2018/07/logo.jpg" alt="Banco do Tempo/>											-->
+			<img class="logo-nav-mobile" src="http://localhost/banco_do_tempo/wp-content/uploads/2018/08/logo_logo_header_mobile_logo_header_mobile.png" alt="Banco do Tempo">
 
 			<!--<button class="go-to-top"><a href="#page"><span class="icon-webfont fa-chevron-circle-up" aria-hidden="true"></span></a></button>-->
 
@@ -170,7 +172,7 @@
 		<?php tha_header_bottom(); // custom action hook ?>
 
 	</header><!-- .site-header -->
-
+	<div class="color-banner"></div>
 	<?php tha_header_after(); // custom action hook ?>
 
 	<div id="content" class="site-content">

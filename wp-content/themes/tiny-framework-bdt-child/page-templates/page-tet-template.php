@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: 
+ * Template Name: Front Page Template
  * Template Post Type: page
  *
  * Description: A page template that provides a key component of WordPress as a CMS
@@ -20,14 +20,6 @@ get_header(); ?>
 
 		<main id="main" class="site-main" itemscope="itemscope" itemprop="mainContentOfPage">
 
-
-		<?phpif 
-		//(isset($_GET['ppc'])) {
-	  	//	$ppc = $_GET['ppc'];
-		//	} else {
-	  			//Handle the case where there is no parameter
-		//		}
-		?>
 			<?php tha_content_top(); // custom action hook ?>
 			<h4>Here are the posts</h4>
 			<?php while ( have_posts() ) : the_post(); // Start the Loop ?>
